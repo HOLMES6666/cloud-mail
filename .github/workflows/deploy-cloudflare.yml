@@ -14,13 +14,13 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
-      KV_NAMESPACE_ID: ${{ secrets.KV_NAMESPACE_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ mz62JlGaszXxbRahbboxdu-UokBQyw7JJRDsOVuO }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ 183e5f403f83842beb436be54d821614 }}
+      D1_DATABASE_ID: ${{ 1fe51ee5-c138-4664-8ef5-c551603b9820 }}
+      KV_NAMESPACE_ID: ${{ cf4a5ac441b9462895547f30afd3a68f }}
       R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
-      DOMAIN: ${{ secrets.DOMAIN }}
-      ADMIN: ${{ secrets.ADMIN }}
+      DOMAIN: ${{ holmes.indevs.in }}
+      ADMIN: ${{ admin@gmail.com }}
       JWT_SECRET: ${{ secrets.JWT_SECRET }}
       LINUXDO_CLIENT_ID: ${{ secrets.LINUXDO_CLIENT_ID }}
       LINUXDO_CLIENT_SECRET: ${{ secrets.LINUXDO_CLIENT_SECRET }}
